@@ -1,12 +1,12 @@
-# Embedding a chart in your Content Management System
+# Embedding funzies!
 
 ## Making a chart using highcharts.js
 
-Make a chart using the highcharts.js library. You can browse examples at [highcharts demos page](http://www.highcharts.com/demo). Once you have selected the right chart, use the "Edit in JSFiddle" button to customize your chart.
+Make a chart using the highcharts.js library. You can browse examples at [highcharts demo page](http://www.highcharts.com/demo). Once you have selected the right chart, use the "Edit in JSFiddle" button to customize your chart.
 
-Once you have changed the data of your chart and tweakded its look-and-feel, you can copy the JavaScript portion of our JSFiddle and paste it into the designated area in your chart.html file. Then upload the chart.html to a public server and grab the public link.
+Once you have changed the data of your chart and tweaked its look-and-feel, you can copy the JavaScript portion of your JSFiddle page and paste it into the designated area in your chart.html file. Then upload the chart.html to a public server and grab the public link.
 
-It could look like this:
+Your link might look like this:
 ```
 http://yoursite.com/interactives/2015/01/chart.html
 ```
@@ -24,6 +24,6 @@ Paste this `<iframe>` into your Wordpress article page as HTML code. What this d
 
 ```
 
-Enjoy!
+Enjoy.
 
-*This was developed for participants of the Alaska Press Club data journalism workhop, held in Anchorage, Alaska, Jan. 5-9, 2015.*
+*This was developed for participants of the Alaska Press Club data journalism workhop, held in Anchorage, Alaska, Jan. 5-9, 2015, but if you are a random stranger who can find some utility in this, go to town!*
