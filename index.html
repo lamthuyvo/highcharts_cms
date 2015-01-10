@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Highcharts template</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+
+  <div id="chart" style="min-width: 100%; height: 400px; margin: 0 auto"></div>
+
+
+	 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+
+  <!-- These are the highcharts code libraries. You need to connect to their code to be able to use the library and make charts -->
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+  <!-- This is the javascript stuff you need to actually make a chart -->
+  <script type = 'text/javascript'>
+        $(function () {
+          $('#chart').highcharts({
+              chart: {
+                  type: 'line'
+              },
+              // This is where your title goes
+              title: {
+                  text: 'Monthly Average Temperature'
+              },
+              // This is where your source line goes
+              subtitle: {
+                  text: 'Source: WorldClimate.com'
+              },
+              // This is where you can set some of the labels for your x-axis
+              xAxis: {
+                  categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+              },
+              yAxis: {
+                  title: {
+                      text: 'Temperature (°C)'
+                  }
+              },
+              plotOptions: {
+                  line: {
+                      dataLabels: {
+                          enabled: true
+                      },
+                      enableMouseTracking: false
+                  }
+              },
+              // The data for the first line chart goes here
+              series: [{
+                  name: 'Tokyo',
+                  data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+              }, {
+              // The data for the second line chart goes here
+                  name: 'London',
+                  data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+              }]
+          });
+      });
+  </script>
+
+  </body>
+</html>
