@@ -4,7 +4,7 @@
 
 Make a chart using the highcharts.js library. You can browse examples at [highcharts demo page](http://www.highcharts.com/demo). Once you have selected the right chart, use the "Edit in JSFiddle" button to customize your chart.
 
-Once you have changed the data of your chart and tweaked its look-and-feel, you can copy the JavaScript portion of your JSFiddle page and paste it into the designated area in your chart.html file. Then upload the chart.html to a public server and grab the public link.
+Once you have changed the data of your chart and tweaked its look-and-feel, you can copy the JavaScript portion of your JSFiddle page and paste it into the designated area in your chart.html file (you can download the chart.html file on this [Github Page](https://github.com/lamthuyvo/highcharts_cms/archive/master.zip)). Then upload the chart.html to a public server and grab the public link.
 
 Your link might look like this:
 ```
